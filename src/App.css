@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import './constants.css';
+
+html,body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	height: 100vh;
+	background: var(--bg-color);
+	font-family: 'Noto Sans', sans-serif;
+	flex-direction: row;
+}
+button {
+	background: var(--black-cell);
+	color: var(--white-cell);
+	border: 0 none;
+	padding: 10px 30px;
+	margin: 6px 0;
+	font-size: 1.1em;
+	width: 150px;
+}
+.board-inner {
+	text-align: center;
+	display: grid;
+	place-content: center;
+	height: calc(9.05*var(--cell-size));
+	background: var(--bg-color);
+	grid-template-rows: calc(.4*var(--cell-size)) calc(8.25*var(--cell-size)) calc(.4*var(--cell-size));
+	grid-template-columns: auto 220px;
+}

@@ -1,0 +1,8 @@
+.letters {
+	grid-column: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: var(--white-cell);
+	height: calc(.25*var(--cell-size));
+}

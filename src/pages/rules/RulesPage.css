@@ -1,0 +1,13 @@
+.container {
+	margin-top: 50px;
+}
+.rules {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #bebebe;
+}
+.rules > {
+	display: inline-block;
+}

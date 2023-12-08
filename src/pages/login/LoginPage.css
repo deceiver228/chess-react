@@ -1,0 +1,25 @@
+.form {
+	display: flex;
+	width: 240px;
+	flex-direction: column;
+	gap: 16px;
+	padding-top: 15vh;
+}
+.login-wrapper {
+	width: 100vw;
+	height: 90vh;
+	background-color: #746a6a;
+	background-size: cover;
+	background-position: center;
+	background-position-x: 25vw;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+.login {
+	padding: 40px;
+	height: (calc(100vh - 40px)*2);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}

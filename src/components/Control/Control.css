@@ -1,0 +1,6 @@
+.control {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: calc(8.65 * var(--cell-size));
+}

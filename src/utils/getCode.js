@@ -1,0 +1,1 @@
+export const getCode = letter => String.fromCharCode(letter + 96);

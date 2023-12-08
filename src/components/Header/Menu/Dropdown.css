@@ -1,0 +1,28 @@
+.menu-inner {
+	position: absolute;
+}
+.menu {
+	position: absolute;
+	margin: 1px 0 0;
+	padding: 0;
+	border: 1px solid #bebebe;
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	left: 0;
+	transform: translate(25%, 25%);
+}
+
+.menu-btn {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.backdrop {
+	position: fixed;
+	inset: 0;
+}

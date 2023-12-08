@@ -1,0 +1,13 @@
+
+.menu-item {
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: none;
+}
+.active {
+	background-color: #ccc;
+}
+.disabled {
+	opacity: 0.5;
+	cursor: initial;
+}
